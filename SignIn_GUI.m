@@ -70,7 +70,8 @@ global studsHere signedIn xlsPathName
 studsHere = 0;
 signedIn = {};
 handles.date = clock;
-xlsPathName = ['Attendance_', num2str(handles.date(2)),'_', num2str(handles.date(3)), '_',num2str(handles.date(1))];
+xlsPathName = ['Attendance_', num2str(handles.date(2)),'_', num2str(handles.date(3)), '_',num2str(handles.date(1)), '_', num2str(randi(1000))];
+
 
 % Loading class roster with info
 global classinfo classSize
